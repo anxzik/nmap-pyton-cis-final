@@ -1,5 +1,5 @@
 #Landing for my Python NMAP project
-import nmap3
+import nmap_scripts
 import netifaces
 import ipaddress
 import os
@@ -7,7 +7,7 @@ from datetime import datetime
 
 
 # Initialize NmapScanTechniques
-nm = nmap3.NmapScanTechniques()
+
 
 # File paths for IP storage
 IP_FILE = "ip.txt"
@@ -129,3 +129,5 @@ def greeting():
     print("  - perform_fin_scan()")
     print("\nExample: results = perform_syn_scan()")
     print("         print(results)")
+
+greeting()
