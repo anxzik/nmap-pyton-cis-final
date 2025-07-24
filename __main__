@@ -1,1 +1,23 @@
+from landing import greeting,   set_default_target, perform_syn_scan, perform_tcp_scan, perform_fin_scan
 
+if __name__ == "__main__":
+    greeting()
+
+    # Example usage:
+    # Set a new default target IP
+    # set_default_target("scanme.nmap.org")
+
+    # Perform a SYN scan using the default target
+    # syn_results = perform_syn_scan()
+    # print("\nSYN Scan Results:")
+    # print(syn_results)
+
+    # Perform a TCP scan on a specific target
+    # tcp_results = perform_tcp_scan("192.168.1.1")
+    # print("\nTCP Scan Results:")
+    # print(tcp_results)
+
+    # Perform a FIN scan on the default target
+    # fin_results = perform_fin_scan()
+    # print("\nFIN Scan Results:")
+    # print(fin_results)
